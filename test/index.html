@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+<title>Fantazie</title>
+<style>
+    body {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #FDECEF;
+    }
+    .navbar {
+        background-color: #FFFFFF;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar h1 {
+        font-family: 'Alex Brush', cursive;
+        color: #000;
+    }
+    h2{
+        font-family: 'Alex Brush';
+    }
+    .navbar h1 {
+        font-family: 'Dancing Script', cursive;
+        color: #000;
+    }
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    .navbar ul li {
+        margin: 0 10px;
+    }
+    .navbar ul li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 16px;
+    }
+    .navbar ul li a:hover {
+        color:#f2128d;
+    }
+    .content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        background-color: #FDECEF;
+    }
+    .content-text {
+        flex-basis: 50%;
+    }
+    .content-text h2 {
+        font-size: 3rem;
+        color: #000;
+        margin: 0 0 20px 0;
+    }
+    .content-text p {
+        font-size: 1rem;
+        margin: 0;
+    }
+    .content-image {
+        flex-basis: 50%;
+    }
+    .content-image img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    .search-box {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .search-box input {
+        padding: 10px;
+        font-size: 1em;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-right: 5px;
+    }
+    .search-box button {
+        padding: 10px 20px;
+        background-color: #d1d1d1;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .stats {
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.2rem;
+        padding: 20px;
+    }
+    .stats div {
+        text-align: center;
+    }
+    .footer {
+        background-color: #FDECEF;
+        text-align: center;
+        padding: 10px;
+        font-size: 1rem;
+    }
+    
+
+.about-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #FFFFFF;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.about-section p {
+    font-size: 1rem;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-item {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+.about-item h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.about-item p {
+    font-size: 1rem;
+    color: #666;
+}
+.testimonials-section {
+    background-color: #F0F0F0; /*culoarea de fundal */
+    padding: 50px;
+    text-align: center;
+}
+
+.testimonials-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px; /*  dimensiune dorită */
+    color: #333; /* Culoarea textului */
+}
+
+.testimonial {
+    background-color: #FFFFFF; /* Culoarea de fundal pentru testimonial(comentarii) */
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* efect de umbrire  */
+    border-radius: 5px; /* Margini rotunjite */
+}
+
+.testimonial-text {
+    font-size: 16px; /*  dimensiune dorită */
+    color: #555; /* Culoarea textului */
+    line-height: 1.6; /* Spatiul între rînduri */
+    text-align: left;
+}
+
+.testimonial-author {
+    text-align: right;
+    font-style: italic;
+    margin-top: 10px;
+    color: #333; /* Culoarea numelui autorului */
+    font-size: 14px; 
+}
+.navbar img{
+    width: 200px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+    <h1>Fantazie</h1>
+    <img src="5.png" alt="">
+    <ul>
+        <li><a href="index.html">Acasă</a></li>
+        <li><a href="#about">Despre noi</a></li>
+        <li><a href="#products">Produse</a></li>
+        <li><a href="#promotions">Promoții</a></li>
+        <li><a href="#contacts">Contacte</a></li>
+    </ul>
+</div>
+
+<div class="content">
+    <div class="content-text">
+        <h2>"Creăm momente dulci pentru fiecare gust și ocazie."</h2>
+        <div class="stats">
+            <div>
+                <strong>50+</strong>
+                <p>Torturi</p>
+            </div>
+            <div>
+                <strong>1000+</strong>
+                <p>Beneficiari</p>
+            </div>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Ce căutați?">
+            <button>🔍</button>
+        </div>
+    </div>
+    <div class="content-image">
+        <img src="1.png.png" alt="Imagine Descriptiva">
+    </div>
+</div>
+
+<div class="about-section">
+    <h2>Despre noi</h2>
+    <p>Descoperă o lume a gusturilor dulci. Comandă acum și bucură-te de fiecare aromă delicioasă!</p>
+    <div class="about-items">
+        <div class="about-item">
+            <img src="2.png" alt="Sortiment bogat">
+            <h3>Sortiment bogat</h3>
+            <p>Descoperă o selecție diversă de dulciuri, fiecare categorie având mai puține varietăți, dar toate la fel de delicioase.</p>
+        </div>
+        <div class="about-item">
+            <img src="3.png" alt="Livrare rapidă">
+            <h3>Livrare rapidă</h3>
+            <p>Livrare rapidă în 3 zile lucrătoare, cu o taxă mică de expediere.</p>
+        </div>
+        <div class="about-item">
+            <img src="4.png" alt="24/7 Suport">
+            <h3>24/7 Suport</h3>
+            <p>Oferim asistență personalizată și răspunsuri rapide la orice întrebare legată de dulciuri, disponibile non-stop, 24/7</p>
+        </div>
+    </div>
+</div>
+
+<div class="testimonials-section">
+    <h2>Ce spun clienții despre noi?</h2>
+    <div class="testimonial">
+        <p class="testimonial-text">"Produsele de la acest magazin de dulciuri sunt absolut delicioase! Am comandat un tort pentru aniversarea fiului meu și a fost un adevărat succes! Gustul și prezentarea au fost impecabile. Recomand cu încredere acest magazin tuturor celor care apreciază dulciurile de calitate!"</p>
+        <p class="testimonial-author">Cozma Victoria</p>
+    </div>
+    <div class="testimonial">
+        <p class="testimonial-text">"Produsele de la acest magazin de dulciuri sunt absolut minunate! Am comandat prăjituri pentru o petrecere și au fost un adevărat succes! Toți invitații au apreciat gustul delicios și aspectul atrăgător al dulciurilor. Cu siguranță voi reveni să mai fac comenzi în viitor. Recomand cu încredere acest magazin!"</p>
+        <p class="testimonial-author">Ursu Ion</p>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<div class="footer">
+    <p>&copy; 2024 Fantazie. Toate drepturile rezervate.</p>
+</div>
+
+</body>
+</html>
