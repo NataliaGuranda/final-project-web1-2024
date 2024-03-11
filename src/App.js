@@ -2,18 +2,23 @@
 import './App.css';
 import Header from "./component/Header"
 import Content from './component/Content';
-import Servicii from './component/Servicii';
 import Footer from './component/Footer';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Produse from './component/Produse';
+import Contact from './component/Contact';
 
 function App() {
   return (
-    <div>
+    <Router>
       <Header />
-      <Content />
-      <Servicii />
+      <Routes>
+      <Route path="/" element={<Content />} />
+     <Route path="/Produse" element={<Produse />} />
+     <Route path="/Contact" element={<Contact />} />
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 }
-
 export default App;
